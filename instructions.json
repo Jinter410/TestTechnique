@@ -1,0 +1,24 @@
+{
+    "actions": [
+      {
+        "type": "navigate",
+        "url": "https://fr.wikipedia.org/wiki/Sp%C3%A9cial:Page_au_hasard"
+      },
+      {
+        "type": "execute_script",
+        "script": "return document.title;"
+      },
+      {
+        "type": "click",
+        "selector": ".mw-logo-container"
+      },
+      {
+        "type": "execute_script",
+        "script": "return document.title;"
+      },
+      {
+        "type": "screenshot",
+        "filename": "screenshot.png"
+      }
+    ]
+  }
